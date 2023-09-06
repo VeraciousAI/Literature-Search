@@ -26,6 +26,7 @@ def search_and_print_papers_page2(resource_func, query, start_index, end_index):
         print_papers([titles[i]], [authors[i]], [years[i]], [links[i]], [abstracts[i]], [journals[i]], [dois[i]])
 
 def Search(query, SS_key):
+    # Print 12 papers on first page
     search_and_print_papers(search_arxiv, query)
 
     search_and_print_papers(search_springer, query)
@@ -34,6 +35,7 @@ def Search(query, SS_key):
 
     search_and_print_papers(search_discovery, query)
 
+    # Print next 12 papers on second page
     search_and_print_papers_page2(search_arxiv_page2, query, 3, 6)
     
     search_and_print_papers_page2(search_springer_page2, query, 3, 6)
@@ -42,6 +44,7 @@ def Search(query, SS_key):
 
     search_and_print_papers_page2(search_discovery_page2, query, 3, 6)
 
+    # For page 3 to page 10
     start_index = 6  # 0-based index, so 6 represents the 7th paper
     end_index = 29   # 0-based index, so 29 represents the 30th paper
 
