@@ -15,7 +15,7 @@ def search_arxiv(query):
   
   search = arxiv.Search(
   query = query,
-  max_results = 30,
+  max_results = 15,
   sort_by = arxiv.SortCriterion.Relevance, # Sort by Relevance
   sort_order = arxiv.SortOrder.Descending
   )
