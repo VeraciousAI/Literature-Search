@@ -18,7 +18,7 @@ def search_springer(query):
       "q": query,
       "api_key": API_key,
       "hl": "en", #language
-      "p": 30  # Number of records
+      "p": 15  # Number of records
   }
 
   response = requests.get(url + endpoint, params=params)
