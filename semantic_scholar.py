@@ -6,7 +6,7 @@ class SemanticScholarLoader(BaseWebAPIDataLoader):
     def __init__(self,SS_key):
         self.SS_key = SS_key
         super().__init__("https://api.semanticscholar.org/graph/v1/paper/search")
-    def search_semantic(self, query, limit=30):
+    def search_semantic(self, query, limit=15):
         # Lists to append research papers data separately
         titles = []
         authors = []
