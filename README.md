@@ -1,6 +1,6 @@
 # Research-Sources-Search
 ## Description:
-The Research Paper Search Script is a Python program designed to help users search for academic research papers based on a given query. It utilizes multiple sources, including Semantic Scholar, UCL Discovery, ArXiv, and Springer, to provide a comprehensive list of relevant research papers. This script allows users to quickly find academic papers related to their research interests, helping them stay up-to-date with the latest scholarly work in their field. There are 120 research papers fetched against one query, 30 research papers from each resource.
+The Research Paper Search Script is a Python program designed to help users search for academic research papers based on a given query. It utilizes multiple sources, including Semantic Scholar, UCL Discovery, ArXiv, and Springer, to provide a comprehensive list of relevant research papers. This script allows users to quickly find academic papers related to their research interests, helping them stay up-to-date with the latest scholarly work in their field. There are 60 research papers fetched against one query, 15 research papers from each resource.
 
 ## Usage Instructions:
 
@@ -22,7 +22,7 @@ The Research Paper Search Script is a Python program designed to help users sear
 
 ### 5. Script Execution:
   - The script will execute and start searching for research papers based on your query across various sources.
-  - It will fetch paper information, including titles, authors, publication years, links, abstracts, journals, and DOIs.
+  - It will fetch paper information, including titles, authors, publication years, source links, abstracts, journals, and DOIs.
   - The script will display the retrieved paper information in a formatted manner with different colors to make it more readable.
 
 ### 6.Customization (Optional):
@@ -40,11 +40,11 @@ The Research Paper Search Script is a Python program designed to help users sear
   - Please replace "script_name.py" with the actual name of the script you are using.
 
 ## Limitations:
-  - Semantic Scholar API not fetching abstracts of all research papers. It returns abstracts as None for some reasearch papers. While on their website, the abstract is available.
+  - Semantic Scholar API not fetching abstracts of all research papers. It returns abstracts as None for some reasearch papers. While on their website, the all abstract is available.
   - Springer API gives constant valye of year for all research papers in *"publicationDate"* and that is "2024".
 
 ## Guidance:
-  - Need guidance to overcome the response time. The response time of a Research Paper Search Script is 3 mins 30 secs approximately.
+  - Need guidance to overcome the response time. The response time of a Research Paper Search Script is 2 mins 8 secs approximately.
 
 ## Disclaimer:
 **The Research Paper Search Script is a powerful tool for researchers, students, and anyone interested in accessing academic research papers quickly and efficiently. It streamlines the process of finding relevant scholarly content across multiple sources, making it an invaluable resource for staying informed and conducting in-depth research.**
