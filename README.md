@@ -45,5 +45,6 @@ The Research Paper Search Script is a Python program designed to help users sear
 
 ## Guidance:
   - Need guidance to overcome the response time. The response time of a Research Paper Search Script is 3 mins 30 secs approximately.
-  
+
+## Disclaimer:
 **The Research Paper Search Script is a powerful tool for researchers, students, and anyone interested in accessing academic research papers quickly and efficiently. It streamlines the process of finding relevant scholarly content across multiple sources, making it an invaluable resource for staying informed and conducting in-depth research.**
