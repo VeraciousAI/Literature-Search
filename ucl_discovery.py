@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-def search_discovery(query,answersCount=1,papersCount=30):
+def search_discovery(query,answersCount=1,papersCount=15):
     # Lists to append research papers data separately
     titles = []
     authors = []
