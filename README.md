@@ -41,7 +41,7 @@ The Research Paper Search Script is a Python program designed to help users sear
 
 ## Limitations:
   - Semantic Scholar API not fetching abstracts of all research papers. It returns abstracts as None for some reasearch papers. While on their website, the all abstract is available.
-  - Springer API gives constant valye of year for all research papers in *"publicationDate"* and that is "2024".
+  - Springer API gives constant value of year for all research papers in *"publicationDate"* and that is "2024".
 
 ## Guidance:
   - Need guidance to overcome the response time. The response time of a Research Paper Search Script is 2 mins 8 secs approximately.
